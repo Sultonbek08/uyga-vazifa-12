@@ -49,6 +49,7 @@
     font-size: 16px;
     font-family: "Rubik";
     font-weight: 100px;
+    box-shadow: #e2e1e1 0 2px  2px 2px;
 }
 
 .header__content__card {
@@ -85,13 +86,38 @@
     row-gap: 59px;
     column-gap: 24px;
 }
-
+.section2__card {
+    width: 255px;
+    height: 338px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 24px;
+}
+.section3__card {
+    width: 255px;
+    height: 338px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 67px;
+    column-gap: 24px;
+}
 .section1__card__h4 {
     font-size: 20px;
     font-family: "Rubik";
     font-weight: 700;
     color: #2A86B1;
+    text-align: center;
 }
+
 
 .main__section2 {
     background: #F1F1F1;
